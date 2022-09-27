@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 15vh 0;
+}
+
+
+/* Styles for AddTask component */
+.addTask {
+  margin-bottom: 5vh;
+}
+
+.addTask input {
+  height: 30px;
+  width: 500px;
+}
+
+
+
+
